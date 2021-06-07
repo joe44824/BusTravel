@@ -7,19 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B26DF38266B4F1200C8C963 /* BusStopsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B26DF37266B4F1200C8C963 /* BusStopsList.swift */; };
+		5B26DF3A266B50D400C8C963 /* BusStopDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B26DF39266B50D400C8C963 /* BusStopDetail.swift */; };
+		5B26DF40266B62D400C8C963 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B26DF3F266B62D400C8C963 /* LocationManager.swift */; };
+		5B33F5EF266B0F7400A0F906 /* DummyBusStops.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B33F5EE266B0F7400A0F906 /* DummyBusStops.json */; };
+		5BA47F57266DEF4200A5C5DD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA47F56266DEF4200A5C5DD /* MapView.swift */; };
+		5BA47F5A266DF12300A5C5DD /* DefaultLocationRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA47F59266DF12300A5C5DD /* DefaultLocationRegion.swift */; };
+		5BA47F5C266DFC8A00A5C5DD /* DummyLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA47F5B266DFC8A00A5C5DD /* DummyLocationManager.swift */; };
+		5BA47F5E266DFCBA00A5C5DD /* DummyMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA47F5D266DFCBA00A5C5DD /* DummyMapView.swift */; };
 		5BE160F6266A0E5900C3448F /* BusTravelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE160F5266A0E5900C3448F /* BusTravelApp.swift */; };
 		5BE160F8266A0E5900C3448F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE160F7266A0E5900C3448F /* ContentView.swift */; };
 		5BE160FA266A0E5B00C3448F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE160F9266A0E5B00C3448F /* Assets.xcassets */; };
 		5BE160FD266A0E5B00C3448F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE160FC266A0E5B00C3448F /* Preview Assets.xcassets */; };
+		5BE16106266A101500C3448F /* BusStopRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE16105266A101500C3448F /* BusStopRow.swift */; };
+		5BE1610B266A18D100C3448F /* BusStops.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BE1610A266A18D100C3448F /* BusStops.json */; };
+		5BE16112266A1F3900C3448F /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE16111266A1F3900C3448F /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B26DF37266B4F1200C8C963 /* BusStopsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopsList.swift; sourceTree = "<group>"; };
+		5B26DF39266B50D400C8C963 /* BusStopDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopDetail.swift; sourceTree = "<group>"; };
+		5B26DF3F266B62D400C8C963 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		5B33F5EE266B0F7400A0F906 /* DummyBusStops.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DummyBusStops.json; sourceTree = "<group>"; };
+		5BA47F56266DEF4200A5C5DD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		5BA47F59266DF12300A5C5DD /* DefaultLocationRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLocationRegion.swift; sourceTree = "<group>"; };
+		5BA47F5B266DFC8A00A5C5DD /* DummyLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyLocationManager.swift; sourceTree = "<group>"; };
+		5BA47F5D266DFCBA00A5C5DD /* DummyMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyMapView.swift; sourceTree = "<group>"; };
 		5BE160F2266A0E5900C3448F /* BusTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE160F5266A0E5900C3448F /* BusTravelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTravelApp.swift; sourceTree = "<group>"; };
 		5BE160F7266A0E5900C3448F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5BE160F9266A0E5B00C3448F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BE160FC266A0E5B00C3448F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5BE160FE266A0E5B00C3448F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE16105266A101500C3448F /* BusStopRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopRow.swift; sourceTree = "<group>"; };
+		5BE1610A266A18D100C3448F /* BusStops.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BusStops.json; sourceTree = "<group>"; };
+		5BE16111266A1F3900C3448F /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BA47F58266DF0EE00A5C5DD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5BA47F59266DF12300A5C5DD /* DefaultLocationRegion.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		5BE160E9266A0E5900C3448F = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +82,10 @@
 		5BE160F4266A0E5900C3448F /* BusTravel */ = {
 			isa = PBXGroup;
 			children = (
+				5BA47F58266DF0EE00A5C5DD /* Extensions */,
+				5BE1610C266A1B8100C3448F /* Model */,
+				5BE16109266A189E00C3448F /* Data */,
+				5BE16104266A0FF400C3448F /* View */,
 				5BE160F5266A0E5900C3448F /* BusTravelApp.swift */,
 				5BE160F7266A0E5900C3448F /* ContentView.swift */,
 				5BE160F9266A0E5B00C3448F /* Assets.xcassets */,
@@ -67,6 +101,37 @@
 				5BE160FC266A0E5B00C3448F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5BE16104266A0FF400C3448F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BE16105266A101500C3448F /* BusStopRow.swift */,
+				5B26DF37266B4F1200C8C963 /* BusStopsList.swift */,
+				5B26DF39266B50D400C8C963 /* BusStopDetail.swift */,
+				5BA47F56266DEF4200A5C5DD /* MapView.swift */,
+				5BA47F5D266DFCBA00A5C5DD /* DummyMapView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5BE16109266A189E00C3448F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5BE1610A266A18D100C3448F /* BusStops.json */,
+				5B33F5EE266B0F7400A0F906 /* DummyBusStops.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5BE1610C266A1B8100C3448F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BE16111266A1F3900C3448F /* ModelData.swift */,
+				5B26DF3F266B62D400C8C963 /* LocationManager.swift */,
+				5BA47F5B266DFC8A00A5C5DD /* DummyLocationManager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +191,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BE1610B266A18D100C3448F /* BusStops.json in Resources */,
+				5B33F5EF266B0F7400A0F906 /* DummyBusStops.json in Resources */,
 				5BE160FD266A0E5B00C3448F /* Preview Assets.xcassets in Resources */,
 				5BE160FA266A0E5B00C3448F /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +205,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BE16106266A101500C3448F /* BusStopRow.swift in Sources */,
+				5BA47F5A266DF12300A5C5DD /* DefaultLocationRegion.swift in Sources */,
+				5BA47F57266DEF4200A5C5DD /* MapView.swift in Sources */,
+				5BA47F5C266DFC8A00A5C5DD /* DummyLocationManager.swift in Sources */,
 				5BE160F8266A0E5900C3448F /* ContentView.swift in Sources */,
 				5BE160F6266A0E5900C3448F /* BusTravelApp.swift in Sources */,
+				5B26DF40266B62D400C8C963 /* LocationManager.swift in Sources */,
+				5B26DF38266B4F1200C8C963 /* BusStopsList.swift in Sources */,
+				5BE16112266A1F3900C3448F /* ModelData.swift in Sources */,
+				5B26DF3A266B50D400C8C963 /* BusStopDetail.swift in Sources */,
+				5BA47F5E266DFCBA00A5C5DD /* DummyMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
